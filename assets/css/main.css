@@ -2812,6 +2812,12 @@ input, select, textarea {
 		padding: 0;
 		list-style: none;
 	}
+	
+		.features img {
+			width: 18rem;
+			height: 155px;
+			margin: 1rem;
+		}
 
 		.features li {
 			width: calc(33.33333% - 2em);
@@ -2830,6 +2836,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+			.features img {
+				width: 16rem;
+			}
+
 			.features li {
 				width: calc(50% - 2em);
 			}
@@ -2845,6 +2855,11 @@ input, select, textarea {
 			.features {
 				width: 100%;
 				margin: 0 0 2em 0;
+			}
+
+				
+			.features img {
+				width: 20rem;
 			}
 
 				.features li {
